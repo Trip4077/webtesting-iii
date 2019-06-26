@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Display from './display/Display';
-//import Controls from './controls/Controls;
+import Controls from './controls/Controls;
 
 class App extends React.Component {
   state = {
@@ -25,13 +25,12 @@ class App extends React.Component {
           <Display locked={locked}
                    closed={closed}
                    />
-        {/*
+        
           <Controls locked={locked}
                     closed={closed}
                     toggleLocked={this.toggleLocked}
                     toggleClosed={this.toggleClosed}
                     />
-        */}
       </>
     );
   }
