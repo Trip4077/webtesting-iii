@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Display from './display/Display';
-import Controls from './controls/Controls;
+import Controls from './controls/Controls';
 
 class App extends React.Component {
   state = {
